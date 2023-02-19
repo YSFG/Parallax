@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<!-- font awesome icons cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<!-- custom css -->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+
+
+<div class="parallax"></div>
+
+<div class="caption">
+    <span class="mainName">Roberto Hernandez</span>
+    <span class="subName">handyman</span>
+</div>
+
+<div class="services">
+   <h3>Services</h3>    
+    
+    <div class="tab">
+        <ul>
+            <li>
+                <button class="tablinks" onclick="openService(event, 'Assembly')" id="defaultOpen"><i class="fa-solid fa-hammer"></i><span>assembly</span></button>
+            </li>
+            <li>
+                <button class="tablinks" onclick="openService(event, 'Maintence')"><i class="fa-solid fa-screwdriver-wrench"></i><span>maintence</span></button>
+            </li>
+            <li>
+                <button class="tablinks" onclick="openService(event, 'Installation')"><i class="fa-solid fa-toolbox"></i><span>installation</span></button>
+            </li>
+            <li>
+                <button class="tablinks" onclick="openService(event, 'Painting')"><i class="fa-solid fa-paint-roller"></i><span>painting</span></button>
+            </li>
+        </ul>       
+        
+    </div>
+    <div id="Assembly" class="tabcontent">
+        <h3>Assembly</h3>
+        <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+            labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+            animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+            aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+            pariatur ut officia. <br> Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+            commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+            proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+            eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+            Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+            culpa duis.
+        </p>
+        <div id="wrapper">
+          <div id="outer">
+              <div class="itemwrapper">
+                <img src="/assets/images/assem.sofa.jpg" alt="bag" />
+              </div>
+              <div class="itemwrapper item2">
+                <img src="/assets/images/assem.unit.jpg" alt="pen" />
+              </div>
+          </div>
+        </div>
+        <!-- <div class="row">
+            <div class="column">
+              <img src="/assets/images/assem.sofa.jpg" alt="sofa" >
+            </div>
+            <div class="column">
+              <img src="/assets/images/assem.kitchen.jpg" alt="kitchen">
+            </div>
+            <div class="column">
+              <img src="/assets/images/assem.unit.jpg" alt="unit">
+            </div>
+            <div class="column">
+                <img src="/assets/images/assem.wardrobe.jpg" alt="wardrobe">
+              </div>
+            </div> -->
+        <!-- <a target="_blank" href="#"> <img src="/assets/images/assem.sofa.jpg" alt=""></a> -->
+        <!-- <a href="#"> <img src="/assets/images/assem.kitchen.jpg" alt=""></a>
+        <a href="#"> <img src="/assets/images/assem.wardrobe.jpg" alt=""></a>
+        <a href="#"> <img src="/assets/images/assem.unit.jpg" alt=""></a> -->
+    </div>
+        
+        <div id="Maintence" class="tabcontent">
+            <h3>Maintence</h3>
+            <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+            labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+            animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+            aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+            pariatur ut officia. <br> Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+            commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+            proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+            eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+            Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+            culpa duis.</p>
+
+            
+        </div>
+        
+        <div id="Installation" class="tabcontent">
+            <h3>Installation</h3>
+            <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+            labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+            animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+            aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+            pariatur ut officia. <br> Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+            commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+            proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+            eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+            Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+            culpa duis.</p>
+        </div>
+
+        <div id="Painting" class="tabcontent">
+            <h3>Painting</h3>
+            <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+            labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+            animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+            aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+            pariatur ut officia. <br> Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+            commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+            proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+            eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+            Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+            culpa duis.</p>
+        </div>
+</div>
+
+<div class="about">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+        labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+        animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+        aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+        pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+        commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+        proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+        eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+        Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+        culpa duis.
+        
+    </p>
+        <div class="contact-tags">
+            <ul>
+                <li><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto:" class="social-link"><i class="fas fa-envelope"></i></a></li>
+            </ul>                   
+          
+        </div>
+</div>
+
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/e87ffddc37.js" crossorigin="anonymous"></script>
+</body>
+</html>
