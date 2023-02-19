@@ -1,3 +1,3 @@
 # Parallax
 
-[HW-Wireframe](https://ysfg.github.io/Parallax/)
+[Parallax](https://ysfg.github.io/Parallax/)
