@@ -15,7 +15,7 @@ font-family: "Roboto", sans-serif;
 /* Top section */
 #parallax {
 background-image: url("./assets/images/person1.jpg");
-min-height: 1000px;
+min-height: 100vh;
 margin-bottom: 50px;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -156,7 +156,7 @@ height: auto;
 margin-bottom: 50px;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center;
+background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 }
