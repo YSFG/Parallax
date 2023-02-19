@@ -23,6 +23,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
 .caption{
 position: absolute;
 left: 0;
@@ -150,7 +151,7 @@ cursor: pointer;
 
 /* About section */
 #parallax-2 {
-background-image: url("./assets/images/person2.jpg");
+background-image:linear-gradient(rgba(19, 14, 14, 0.45), rgba(19, 14, 14, 0.45)), url("./assets/images/person2.jpg");
 height: auto;
 margin-bottom: 50px;
 /* Create the parallax scrolling effect */
