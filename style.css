@@ -19,7 +19,7 @@ min-height: 1000px;
 margin-bottom: 50px;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center;
+background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
 }
