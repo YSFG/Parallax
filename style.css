@@ -16,7 +16,7 @@ font-family: "Roboto", sans-serif;
 #parallax {
 background-image: url("./assets/images/person1.jpg") ;
 width: 100%;
-height: 100vh;
+height: 1000px;
 margin-bottom: 50px;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
