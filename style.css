@@ -14,22 +14,19 @@ font-family: "Roboto", sans-serif;
 
 /* Top section */
 #parallax {
-background-image: url("./assets/images/person1.jpg") ;
-/* width: 100%; */
-min-height: 100%;
+background-image: url("./assets/images/person1.jpg");
+min-height: 1000px;
 margin-bottom: 50px;
-position: relative;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center center;
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-
 .caption{
 position: absolute;
 left: 0;
-top: 45%;
+top: 50%;
 width: 100%;
 text-align: center;
 color: #000;
@@ -74,6 +71,9 @@ text-transform: uppercase;
 font-family: 'Roboto', sans-serif;
 color: black;
 margin-bottom: 20px;
+}
+.myImages {
+    margin-bottom: 10px;
 }
 /* screen shot model */
 #myImg {
@@ -153,12 +153,12 @@ cursor: pointer;
 
 /* About section */
 #parallax-2 {
-background-image:linear-gradient(rgba(19, 14, 14, 0.45), rgba(19, 14, 14, 0.45)), url("./assets/images/person2.jpg");
+background-image: url("./assets/images/person2.jpg");
 height: auto;
 margin-bottom: 50px;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
-background-position: center center;
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -199,14 +199,23 @@ padding: 0 12%;
 }
 
  /* Media Queries */
- @media only screen and (max-device-width: 1366px) {
-    #parallax,#parallax-2 {
-      background-attachment: scroll;
-    }
-  }
- @media (max-width: 887px){
+ @media (min-width: 641px) {
+    a.icon {display:none}
+    a.text {display:inline-block}
+}
 
- }
+@media (max-width: 640px) {
+    a.icon {display:inline-block}
+    a.text {display:none}
+    .tab-mobile{
+        width: 25%;
+        text-align: center;
+    }
+    .icon {
+        width: 100%;
+    }
+
+}
  @media (max-width: 768px){
     #myImg{
         margin-bottom: 15px;
@@ -219,3 +228,4 @@ padding: 0 12%;
 
  }
     
+/* ===================================== */
